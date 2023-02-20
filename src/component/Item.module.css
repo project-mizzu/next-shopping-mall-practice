@@ -1,0 +1,35 @@
+.wrap {
+  display: flex;
+  margin-top: 40px;
+}
+
+.info_item {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.tit_item {
+  display: block;
+  font-size: 22px;
+}
+
+.num_price {
+  display: block;
+  margin: 15px 0;
+  font-size: 30px;
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+.txt_info {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.item_description {
+  margin: 40px 0;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}

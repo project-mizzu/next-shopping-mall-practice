@@ -3,8 +3,11 @@ import Gnb from './Gnb';
 
 export default function Top() {
   return (
-    <div style={{ marginTop: 20 }}>
-      <Header as="h1" style={{ display: 'flex', justifyContent: 'center' }}>
+    <div>
+      <Header
+        as="h1"
+        style={{ display: 'flex', justifyContent: 'center', margin: 50 }}
+      >
         MIZZU
       </Header>
       <Gnb></Gnb>
